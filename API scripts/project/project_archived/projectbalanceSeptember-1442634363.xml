@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+      <control>
+            <status>failure</status>
+            <senderid></senderid>
+            <controlid></controlid>
+      </control>
+      <errormessage>
+            <error>
+                  <errorno>DL02000001</errorno>
+                  <description></description>
+                  <description2>The Service is Temporarily Off-line.</description2>
+                  <correction>Please Try Again Later.</correction>
+            </error>
+      </errormessage>
+</response>
