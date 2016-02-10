@@ -16,11 +16,11 @@
 - Each dashboard can have __max 12 widgets__. 
 - Dashboard widget only provides basic standard configurations. User filtering to get a bit of customization.
 
-![GA_graph1]
+![GA_graph1](https://github.com/noelleli/documentation/blob/master/GA/ga_graphs/GA_graph1.png)
 
-![GA_graph2]
+![GA_graph2](https://github.com/noelleli/documentation/blob/master/GA/ga_graphs/GA_graph2.png)
 
-![GA_graph3]
+![GA_graph3](https://github.com/noelleli/documentation/blob/master/GA/ga_graphs/GA_graph3.png)
 
 - When initiate a new email report, make sure the date range is selected as one of the non-custom range, e.g. Yesterday, Last Week, or Last Month. If a custom range is selected the report will always sent with data of that same date range. 
 
@@ -30,25 +30,15 @@
 - __Work-arounds__: use goals to filter metrics then pull goal metrics for computing. 
 __EXAMPLE:__ (magazine) gift subscription conversion rate = gift subscription confirmation pageviews / gift subscription (starting page) pageviews. Both subscription pageviews and confirmation pageviews are pageviews __filtered__ by certain URLs/URL patterns. see the following goal setting:
 
-![GA_graph4]
+![GA_graph4](https://github.com/noelleli/documentation/blob/master/GA/ga_graphs/GA_graph4.png)
 
-![GA_graph5]
+![GA_graph5](https://github.com/noelleli/documentation/blob/master/GA/ga_graphs/GA_graph5.png)
 
 
 The use these goal metrics in Calculated Metric configuration Formula to calcualte conversion rate. The complete formula is `{{GIFT Subscription Confirm (Goal 6 Completions)}} / {{GIFT Subscription (funnel 1) (Goal 4 Completions)}}`. 
 
-![GA_graph6]
+![GA_graph6](https://github.com/noelleli/documentation/blob/master/GA/ga_graphs/GA_graph6.png)
 
-
-
-
-
-
-
-
-
-[GA_graph1]: 
-[GA_graph2]: 
 
 
 
