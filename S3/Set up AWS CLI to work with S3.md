@@ -1,11 +1,11 @@
 # set up AWS CLI to work with S3
 
-### 1. check python version in ec2 instance (most likely it is 2.7)
+### 1. check python version on ec2 instance or your local machine (most likely it is 2.7)
 ```cmd
 $ python --version
 ```
 
-### 2. install pip (pip is cool)
+### 2. install pip
 ```cmd
 $ sudo python27 get-pip.py
 ```
@@ -22,7 +22,7 @@ $ pip install --upgrade awscli
 ### 4. get user credential and key from aws aim console in order to use AWS CLI
 - go [here](https://console.aws.amazon.com/iam/)
 - create key pair for yourself if there isn't one already;
-- double check if your profile is in developer group (our developer group has full access to everything!?!?) 
+- check if your profile is in developer group (everybody is in developer group, which happens to have full access to everything!?!?) 
 
 ### 5. add your creditials to aws cli configuration file
 ```cmd
