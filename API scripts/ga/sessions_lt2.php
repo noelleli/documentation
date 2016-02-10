@@ -70,7 +70,7 @@ function getService(){
   // Use the developers console and replace the values with your
   // service account email, and relative location of your key file.
   $service_account_email = '186879846102-oa1so3s7gaaq0gcb735s02if9trafe5m@developer.gserviceaccount.com';
-  $key_file_location = '/Users/noelleli/ga_api/client_secrets.p12';
+  $key_file_location = 'client_secrets.p12';
 
   // Create and configure a new client object.
   $client = new Google_Client();
