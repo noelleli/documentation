@@ -9,12 +9,17 @@
 ### How it works
 - __Events__: event listener listening to clicks `gtm.click`, link clicks `gtm.linkClick`, time intervals (between events) `gtm.timer`, form submits `gtm.formSubmit` and other custom events, set by *custom html tag. 
 - when event happens, tag manager broadcasts values associate that specific event to __data layer variables__.
-![graph1]
+
+![graph1](https://github.com/noelleli/documentation/blob/master/GTM/graphs/graph1.png)
+
 - __Data layer variables__:  tag manager comes with a set of built-in variables. we can also create custom variables using **custom script.
 - __Triggers__ : a firing rule combining event and data layer variables. Since event listeners log all events, we need to use rule to condition event that  matters by specifying variable values. 
-![graph2]
+
+
+![graph2](https://github.com/noelleli/documentation/blob/master/GTM/graphs/graph2.png)
  
-![graph3]
+![graph3](https://github.com/noelleli/documentation/blob/master/GTM/graphs/graph3.png)
+
 This rule doesn't have specific variable values because the event is a custom event set by a custom html tag where the script already does the job of filtering.
 - __Tracking tags__: once the trigger (rule) is set, we need to set tracking tag to push data over to Google Analytics, Google AdWords, or other data receiving properties.
 - Tags __always__ need a trigger (firing rule) to fire. If a tag needs to be fire 100% of the time, set the trigger as `gtm.load` or All Pages. Same rule, you can remove trigger in the tag setting to disable a tag without deleting it.
@@ -87,7 +92,3 @@ This data lay variable (however you name it) will have value = true when a page 
 ### Other resources:
 - [some tutorial videos from Google](https://analyticsacademy.withgoogle.com/course05)
 - [some tutorial texts from Google](https://support.google.com/tagmanager/answer/6106716?hl=en&ref_topic=6333310)
-
-
-[graph1]:
-[graph2]:
