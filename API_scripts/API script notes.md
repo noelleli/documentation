@@ -1,4 +1,4 @@
-## Basic:
+## Folders explained:
 - adsense: includes adsense api python library. /adsense_make_scripts has scritps related to maker media. 
 - dfp: includes dfp python3 library. 
 - ga: Google Analytics api php library and scripts. GA8515Boards.php is written for running digikey click report. It loops through each link in `boards/boardpages.csv` for each of its total clicks, and dumps out a file. 
