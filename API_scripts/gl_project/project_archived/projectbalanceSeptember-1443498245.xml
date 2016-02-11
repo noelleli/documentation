@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+      <control>
+            <status>success</status>
+            <senderid>MAKERMEDIA</senderid>
+            <controlid>1443498244</controlid>
+            <uniqueid>false</uniqueid>
+            <dtdversion>3.0</dtdversion>
+      </control>
+      <operation>
+            <authentication>
+                  <status>success</status>
+                  <userid>nli</userid>
+                  <companyid>MAKERMEDIA</companyid>
+                  <sessiontimestamp>2015-09-28T20:44:02-07:00</sessiontimestamp>
+            </authentication>
+            <result>
+                  <status>failure</status>
+                  <function>readByQuery</function>
+                  <controlid>1443498244</controlid>
+                  <errormessage>
+                        <error>
+                              <errorno>BL03002069</errorno>
+                              <description></description>
+                              <description2>Invalid period selected</description2>
+                              <correction></correction>
+                        </error>
+                  </errormessage>
+            </result>
+            <result>
+                  <status>failure</status>
+                  <function>readMore</function>
+                  <controlid></controlid>
+                  <errormessage>
+                        <error>
+                              <errorno>readMore failed</errorno>
+                              <description></description>
+                              <description2>Attempt to read past end of record list without first calling a read function, or a non-existing object/view type</description2>
+                              <correction></correction>
+                        </error>
+                  </errormessage>
+            </result>
+            <result>
+                  <status>failure</status>
+                  <function>readMore</function>
+                  <controlid></controlid>
+                  <errormessage>
+                        <error>
+                              <errorno>readMore failed</errorno>
+                              <description></description>
+                              <description2>Attempt to read past end of record list without first calling a read function, or a non-existing object/view type</description2>
+                              <correction></correction>
+                        </error>
+                  </errormessage>
+            </result>
+      </operation>
+</response>

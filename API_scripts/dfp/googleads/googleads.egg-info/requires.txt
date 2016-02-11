@@ -1,0 +1,6 @@
+httplib2
+oauth2client
+suds-jurko
+pysocks
+pytz
+PyYAML
