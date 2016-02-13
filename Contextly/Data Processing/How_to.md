@@ -75,6 +75,7 @@ Read [here](https://www.cs.duke.edu/courses/fall15/compsci290.1/TA_Material/jung
 ### contextly log file schema
 
 - daily log file schema:
+```
 root
  |-- _corrupt_record: string (nullable = true)
  |-- blog_id: string (nullable = true)
@@ -101,9 +102,10 @@ root
  |    |-- url_from: string (nullable = true)
  |    |-- url_to: string (nullable = true)
  |    |-- user_agent: string (nullable = true)
-
+```
 - opts log file schema
- root
+``` 
+root
  |-- _corrupt_record: string (nullable = true)
  |-- blog_id: string (nullable = true)
  |-- client_id: long (nullable = true)
@@ -117,6 +119,7 @@ root
  |    |-- text_body: string (nullable = true)
  |    |-- text_title: string (nullable = true)
  |    |-- url: string (nullable = true)
+ ```
 
 
 
