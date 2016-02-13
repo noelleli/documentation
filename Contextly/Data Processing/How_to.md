@@ -1,7 +1,7 @@
 __NOTE__: Cron job has set up to sync log files from Rinode to EC2 then to S3. See `ec2-user@52.0.228.76:/home/ec2-user/contextly_sync` for bash script. You can update cron job schedule `/etc/crontab`. Job runs at UTC 20:30 daily. cron job has to be run as ec2-user; root is not set up with AWS CLI credential and key. Need to check `/home/ec2-user/contextly/new/` and `/home/ec2-user/contextly/opts/ folders to see if they are full. 
 
 *Our BI instance already has AWS key-pair variables (`AWS_ACCESS_KEY_ID` & `AWS_SECRET_ACCESS_KEY`) set in the envirnment. 
-**Both python scripts are not in any way optimized to fully ultize MapReduce and Spark process. Feel free to tweet them. 
+**Both python scripts are not in any way optimized to fully ultize MapReduce and Spark process. Feel free to tweak them. 
 
 ### Step by Step
 
